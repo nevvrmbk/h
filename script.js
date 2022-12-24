@@ -3,9 +3,9 @@ const errors = (err) => {
 };
 
 window.addEventListener('DOMContentLoaded', async (e) => {
-    // document.querySelector('#network').innerHTML = navigator.connection.effectiveType;
-    // m();
-    // await I();
+    document.querySelector('#network').innerHTML = navigator.connection.effectiveType;
+    m();
+    await I();
 
     const dropArea = document.getElementById('drop-area');
 
